@@ -21,7 +21,7 @@ The Expense Reimbursement System (ERS) will manage the process of reimbursing em
  - CRUD functionality for all domain objects
  - All CRUD functionality accessible via RESTful API
  - Functional web UI to consume RESTful API
- - Workflows to complete all business tasks
+ - Workflows to complete all user stories
  - Unit test coverage for service-layer classes
 
 The back-end system shall use JDBC to connect to a Postgres database. The middle tier shall use Javalin technology for dynamic Web application development. The front-end view shall use HTML/CSS/JavaScript to make an application that can call server-side components in a generally RESTful manner. The middle tier shall follow proper layered architecture, and have reasonable JUnit test coverage of the service layer. Webpages shall be styled to be functional and readable. 
