@@ -26,18 +26,21 @@ The Expense Reimbursement System (ERS) will manage the process of reimbursing em
  - Validate all user input
  - Unit test coverage for service-layer classes
 
-The back-end system shall use JDBC to connect to a Postgres database. The middle tier shall use Javalin technology for dynamic Web application development. The front-end view shall use HTML/CSS/JavaScript to make an application that can call server-side components in a generally RESTful manner. The middle tier shall follow proper layered architecture, and have reasonable JUnit test coverage of the service layer. Webpages shall be styled to be functional and readable. 
+The persistence-layer system shall use JDBC to connect to a Postgres database. The API-layer shall utilize Java servlets to expose a public interface. The front-end view shall use HTML/CSS/JavaScript to make an application that can call server-side components in a generally RESTful manner. The middle tier shall follow proper layered architecture, and have reasonable JUnit test coverage of the service layer. Webpages shall be styled to be functional and readable. 
 
 # User Stories
-#### Requirements:
+### Requirements:
+#### Guest:
  - As a guest, I can register for a new account
  - As a guest, I can log into my account
 
+#### User:
  - As a user, I can submit a request for reimbursement
  - As a user, I can cancel a pending request for reimbursement
  - As a user, I can view my pending and completed past requests for reimbursement
  - As a user, I can edit my pending requests for reimbursement
 
+#### Admin/Finance Manager:
  - As an admin, I can approve expense reimbursements
  - As an admin, I can deny expense reimbursements
  - As an admin, I can filter requests by status
