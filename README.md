@@ -18,13 +18,35 @@ The Expense Reimbursement System (ERS) will manage the process of reimbursing em
 
 # Functional Requirements
  - Domain objects persisted in relational database
+ - Database should be in 3NF
  - CRUD functionality for all domain objects
  - All CRUD functionality accessible via RESTful API
  - Functional web UI to consume RESTful API
  - Workflows to complete all user stories
+ - Validate all user input
  - Unit test coverage for service-layer classes
 
 The back-end system shall use JDBC to connect to a Postgres database. The middle tier shall use Javalin technology for dynamic Web application development. The front-end view shall use HTML/CSS/JavaScript to make an application that can call server-side components in a generally RESTful manner. The middle tier shall follow proper layered architecture, and have reasonable JUnit test coverage of the service layer. Webpages shall be styled to be functional and readable. 
+
+# User Stories
+#### Requirements:
+ - As a guest, I can register for a new account
+ - As a guest, I can log into my account
+
+ - As a user, I can submit a request for reimbursement
+ - As a user, I can cancel a pending request for reimbursement
+ - As a user, I can view my pending and completed past requests for reimbursement
+ - As a user, I can edit my pending requests for reimbursement
+
+ - As an admin, I can approve expense reimbursements
+ - As an admin, I can deny expense reimbursements
+ - As an admin, I can filter requests by status
+
+#### Stretch Goals:
+ - As an admin, I can change a user's role between admin and user
+
+# UI Help
+Due to the schedule of our curriculum, we won't begin discussing JavaScript until the week of the presentation. Your trainer will be providing drop-in JavaScript code you can use to connect your HTML/CSS front-end to your Java backend. You may need to adjust what is provided to fit into your application. Expect this no later than Monday 4/18/2022.
 
 **State-chart Diagram (Reimbursement Statuses)** 
 
