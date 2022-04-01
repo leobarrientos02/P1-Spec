@@ -75,7 +75,7 @@ Due to the schedule of our curriculum, we won't begin discussing JavaScript unti
 
 ## Misc Notes
 
-* This README should prove helpful when getting the big picture of everything you need to do... However, what should be most helpful to you is actually looking through the skeleton and seeing the required functionality. COE was very generous to already create the required method signatures for you and leave notes on how the various classes should work.
+* This README should act as the source of truth for this project. If there is any question or ambiguity I will refer to the text in this document as the final arbiter. The skeleton provided should act as a guide to the structure of the application and should assist in getting started. This skeleton contains some of the necessary classes and method signatures and notes on how these classes and methods should work.
 
 
 * Remember the logical progression of our java applications. We tend to go from the main method, to the controller layer, to the service layer, to the DAO (aka repository) layer. There are exceptions to this rule of thumb, but in general it's a good rule to follow, and the skeleton is structured accordingly. 
