@@ -1,7 +1,30 @@
-# Employee Reimbursment System (ERS)
+# Project 1 - Employee Reimbursment System (ERS)
 
 ## Executive Summary
 The Expense Reimbursement System (ERS) will manage the process of reimbursing employees for expenses incurred while on company time. All employees in the company can login and submit requests for reimbursement and view their past tickets and pending requests. Finance managers can log in and view all reimbursement requests and past history for all employees in the company. Finance managers are authorized to approve and deny requests for expense reimbursement. The reimbursement types should have the following options: LODGING, FOOD, TRAVEL
+
+
+# Tech Stack
+ - Java 8
+ - Apache Maven
+ - PostgreSQL
+ - AWS RDS
+ - Java Servlets
+ - JDBC
+ - HTML
+ - CSS
+ - JavaScript
+ - AJAX / Fetch API
+
+# Functional Requirements
+ - Domain objects persisted in relational database
+ - CRUD functionality for all domain objects
+ - All CRUD functionality accessible via RESTful API
+ - Functional web UI to consume RESTful API
+ - Workflows to complete all business tasks
+ - Unit test coverage for service-layer classes
+
+The back-end system shall use JDBC to connect to a Postgres database. The middle tier shall use Javalin technology for dynamic Web application development. The front-end view shall use HTML/CSS/JavaScript to make an application that can call server-side components in a generally RESTful manner. The middle tier shall follow proper layered architecture, and have reasonable JUnit test coverage of the service layer. Webpages shall be styled to be functional and readable. 
 
 **State-chart Diagram (Reimbursement Statuses)** 
 
@@ -24,10 +47,6 @@ The Expense Reimbursement System (ERS) will manage the process of reimbursing em
 
 ![](./imgs/activity.jpg)
 
-## Technical Requirements
-
-The back-end system shall use JDBC to connect to a Postgres database. The middle tier shall use Javalin technology for dynamic Web application development. The front-end view shall use HTML/CSS/JavaScript to make an application that can call server-side components in a generally RESTful manner. The middle tier shall follow proper layered architecture, and have reasonable JUnit test coverage of the service layer. Webpages shall be styled to be functional and readable. 
-
 
 ## Misc Notes
 
@@ -37,7 +56,7 @@ The back-end system shall use JDBC to connect to a Postgres database. The middle
 * Remember the logical progression of our java applications. We tend to go from the main method, to the controller layer, to the service layer, to the DAO (aka repository) layer. There are exceptions to this rule of thumb, but in general it's a good rule to follow, and the skeleton is structured accordingly. 
 
 
-* I (Kevin) can only teach you so much -- This project will require you to do a bit of self study (For instance, learning about how enums work. They aren't that scary I promise). Your BEST resource when self studying besides google is each other. You're in teams for a reason! This is a great opportunity to figure out how to articulate your problems to others and help others with their own problems. Web dev is not an introverted role...
+* Your trainer can only teach you so much -- This project will require you to do a bit of self study (For instance, learning about how enums work. They aren't that scary I promise). Your BEST resource when self studying besides google is eachother. This is a great opportunity to figure out how to articulate your problems to others and help others with their own problems.
 
 
 * When creating your applications, the diagrams above are simply suggestions for best practice... There are easier and harder ways to implement the same thing. For instance: 
@@ -48,4 +67,7 @@ The back-end system shall use JDBC to connect to a Postgres database. The middle
 * Let me reiterate - HELP EACH OTHER! Don't spend 3 hours on the same problem when you could talk it out with your peers after ~1 hour of bashing your head against stackoverflow.com. But of course, do your own work and make sure to actually learn or you'll have a bad time during P2. 
 
 
-## Due Date: March 24th
+## Submission
+### Due Date: Thursday 4/28/2022 at 9:00 AM CST
+Your project needs to be pushed into the main branch of your P1 repository no later than the due data and time above. Commits after this deadline will not be considered. On the due date there will be a presentation. You will be expected to briefly cover your project, and should be prepared to discuss it with QC.
+
