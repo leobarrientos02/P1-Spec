@@ -78,10 +78,10 @@ Due to the schedule of our curriculum, we won't begin discussing JavaScript unti
 * This README should act as the source of truth for this project. If there is any question or ambiguity I will refer to the text in this document as the final arbiter. The skeleton provided should act as a guide to the structure of the application and should assist in getting started. This skeleton contains some of the necessary classes and method signatures and notes on how these classes and methods should work.
 
 
-* Remember the logical progression of our java applications. We tend to go from the main method, to the controller layer, to the service layer, to the DAO (aka repository) layer. There are exceptions to this rule of thumb, but in general it's a good rule to follow, and the skeleton is structured accordingly. 
+* Remember the logical progression of our java applications. We tend to go from the main method, to the API-layer, to the service-layer, to the persistence-layer. There are exceptions to this rule of thumb, but in general it's a good rule to follow, and the skeleton is structured accordingly. 
 
 
-* Your trainer can only teach you so much -- This project will require you to do a bit of self study (For instance, learning about how enums work. They aren't that scary I promise). Your BEST resource when self studying besides google is eachother. This is a great opportunity to figure out how to articulate your problems to others and help others with their own problems.
+* Your trainer can only teach you so much -- This project will require you to do a bit of self study (For instance, learning about how enums work. They aren't that scary I promise). Your BEST resource when self studying besides google is each other. This is a great opportunity to figure out how to articulate your problems to others and help others with their own problems.
 
 
 * When creating your applications, the diagrams above are simply suggestions for best practice... There are easier and harder ways to implement the same thing. For instance: 
